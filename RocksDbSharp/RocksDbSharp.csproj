@@ -2,7 +2,7 @@
   <Import Project="..\Versions.targets.include"/>
   <PropertyGroup>
     <Title>RocksDbSharp</Title>
-    <TargetFrameworks>netstandard1.6;net40;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard1.6</TargetFrameworks>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <Version>$(RocksDbVersion).$(RocksDbSharpBuild)</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>

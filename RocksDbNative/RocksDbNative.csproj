@@ -2,7 +2,7 @@
   <Import Project="..\Versions.targets.include"/>
   <PropertyGroup>
     <Title>RocksDbNative</Title>
-    <TargetFrameworks>netstandard1.6;net40;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard1.6</TargetFrameworks>
     <Version>$(RocksDbVersion).$(RocksDbNativeBuild)</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
